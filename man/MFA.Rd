@@ -84,7 +84,7 @@ Matriz = DataMix[,2:ncol(DataMix)]
 
 rownames(Matriz) <- as.character(t(DataMix[1:nrow(DataMix),1]))
 
-GroupNames = c("Notes Coffee/Work", "Training/Dedication", "Caffee")
+GroupNames = c("Notes Coffee/Work", "Training/Dedication", "Coffee")
 
 MF <- MFA(Matriz, c(2,2,2), c("n","c","f"), GroupNames) # perfoms MFA
 

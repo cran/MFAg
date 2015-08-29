@@ -2,7 +2,7 @@
 
 \alias{IM}
 
-\title{Matrix Indicator}
+\title{Indicator Matrix}
 
 \description{In Indicator Matrix elements are arranged in the form of \emph{dummy} variables, in other words, 1 for a category chosen as variable response and 0 for the other categories of the same variable.}
 
