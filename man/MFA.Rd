@@ -9,26 +9,26 @@
 \usage{MFA(Data, Grupo, TipoGrupo = rep("n", length(Grupo)), NomeGrupos = NULL)}
 \arguments{
   \item{Data}{Data to be analyzed.}
-  \item{Grupo}{Number of columns in order for each group in the order of data 'Date'.}
-  \item{TipoGrupo}{"n" for numerical data - default.\cr
-                   "c" for categorical data.\cr
+  \item{Grupo}{Number of columns for each group em ordem following the order of the datas of  'Data'.}
+  \item{TipoGrupo}{"n" for numerical groups - default;\cr
+                   "c" for categorical data;\cr
                    "f" for frequency data.}
-  \item{NomeGrupos}{Names for each group}
+  \item{NomeGrupos}{Names for each group.}
 }
 
 \value{
-\item{MatrixG}{Matrix with the size of each group.}
+\item{MatrixG}{Matrix with the sizes of each group.}
 \item{MatrixNG}{Matrix with the names of each group.}
-\item{MatrixPLin}{Matrix with the values used to balance the lines of the matrix Z.}
+\item{MatrixPLin}{Matrix with the values used to balance the rows of the matrix Z.}
 \item{MatrixPCol}{Matrix with the values used to balance the columns of the matrix Z.}
-\item{MatrixZ}{Concatenated matrix and balanced.}
+\item{MatrixZ}{Concatenated and balanced matrix.}
 \item{MatrixA}{Matrix with eigenvalues (variances).}
-\item{MatrixU}{Matrix U of singular decomposition of the matrix Z.}
-\item{MatrixV}{Matrix V of singular decomposition of the matrix Z.}
-\item{MatrixF}{Global matrix of scores of factors where every rows are observations and columns components.}
-\item{MatrixEFG}{Matrix scores of factors by Group.}
-\item{MatrixCCP}{Correlation matrix of the principal component with the original variables.}
-\item{MatrixEscVar}{Matrix of partial inertia / scores of variables.}
+\item{MatrixU}{Matrix U of the singular decomposition of the matrix Z.}
+\item{MatrixV}{Matrix V of the singular decomposition of the matrix Z.}
+\item{MatrixF}{Global matrix of the scores of the factors where the rows are the observations and the columns the components.}
+\item{MatrixEFG}{Matrix of the scores of the factors per group.}
+\item{MatrixCCP}{Correlation matrix of the principal components with the original variables.}
+\item{MatrixEscVar}{Matrix of the partial inertia /scores of the variables.}
 }
 
 \references{

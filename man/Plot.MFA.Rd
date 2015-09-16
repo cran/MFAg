@@ -10,23 +10,23 @@
 Plot.MFA(MFA,Titles = matrix(NA,1,3), PosLeg = 2, BoxLeg = "s", Color = "s", NamArr = "n")}
  
 \arguments{
-  \item{MFA}{Function data MFA.}
-  \item{Titles}{Titles for graphics. If not set takes standard text.}
-  \item{PosLeg}{1 for legend in the upper left corner.\cr
-                2 for legend in the upper right corner - default.\cr
-                3 for legend in the bottom right corner.\cr
-                4 for legend in the bottom left corner.}
-  \item{BoxLeg}{"s" to put frame on the legend - defaul.\cr
-                "n" not to put frame on the legend.}
-  \item{Color}{"s" for colored graphs - default.\cr
-               "n" for graphs in black and white.}
-  \item{NamArr}{"s" to put points names in the cloud around the
-                    centroid in graph corresponding to global
-                    analysis of individuals and variables.\cr
-                "n" otherwise - default.}
+  \item{MFA}{Data of the function MFA.}
+  \item{Titles}{Titles for the plots. If it is not defined, it takes on standard text.}
+  \item{PosLeg}{1 for caption on the left upper corner;\cr
+                2 for caption on the right upper corner - default;\cr
+                3 for caption on the right lower corner;\cr
+                4 for caption on the left lower corner.}
+  \item{BoxLeg}{"s" to place frame on the caption - default;\cr
+                "n" does not place frame on the caption.}
+  \item{Color}{"s" for colored plots - default;\cr
+               "n" for black and white plots.}
+  \item{NamArr}{"s" "s" to put point names in the cloud around the
+                  centroid on the plot correspondent to the
+                  global analysis of the individuals and variables;\cr
+                "n" Otherwise - default.}
 }
 
-\value{Returns several graphics.}
+\value{Returns several plots.}
 
 \author{
 Paulo Cesar Ossani
@@ -37,19 +37,19 @@ Marcelo Angelo Cirillo
 \seealso{\code{\link{MFA}}}
 
 \examples{
-data(DataMix) # set of mixed data
+data(DataMix) # set of mixed data of the cooperatives
 
 Matriz = DataMix[,2:ncol(DataMix)] 
 
 rownames(Matriz) <- as.character(t(DataMix[1:nrow(DataMix),1]))
 
-GroupNames = c("Notes Coffee / Work "," Training / Dedication "," Coffee ")
+GroupNames = c("Notes Coffee / Work","Training / Dedication","Coffee")
            
 MF <- MFA(Matriz, c(2,2,2), TipoGrupo = c("n","c","f"), GroupNames) # performs MFA
 
 Titulos = c("Observations", "Observations/Variables", "Inertia Groups Variables")
 
-Plot.MFA(MF, Titulos, 2, "n", "s", "n") # several screen graphics
+Plot.MFA(MF, Titulos, 2, "n", "s", "n") # several screen plots
 }
 
 \keyword{Multiple Factors Analysis}
