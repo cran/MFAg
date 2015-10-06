@@ -47,8 +47,9 @@ GroupNames = c("Notes Coffee / Work","Training / Dedication","Coffee")
            
 MF <- MFA(Matriz, c(2,2,2), TipoGrupo = c("n","c","f"), GroupNames) # performs MFA
 
-Titulos = c("Observations", "Observations/Variables", "Inertia Groups Variables")
-
+Titulos = c("Cooperatives/Tasters", "Cooperatives/Tasters and Variables",
+             "Inertia of the groups of variables")
+                   
 Plot.MFA(MF, Titulos, 2, "n", "s", "n") # several screen plots
 }
 

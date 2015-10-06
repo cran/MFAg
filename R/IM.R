@@ -17,9 +17,9 @@ IM <- function(Data, Names = "s") {
   Names = ifelse(Names=="s","S",ifelse(Names=="n","N",Names)) # transforma em maiusculo
   
   if (Names!="S" && Names!="N") 
-     return(print("Entry to 'Names' is incorrect. Check!"))
+     stop("Input to 'Names' is incorrect. Check!")
   
-  NumLinha  <- nrow(Data)  # Numero de linhas na tabela
+  NumLinha <- nrow(Data)  # Numero de linhas na tabela
   
   for (k in 1:ncol(Data)) {
     
@@ -31,19 +31,24 @@ IM <- function(Data, Names = "s") {
     
     MDummy = matrix(0,NumLinha,Qtd_Nivel) # Cria Matriz Vazia com elementos zero
     
-    for (i in 1:Qtd_Nivel)
+    i <- 1
+    while (i <= Qtd_Nivel) {
       
-      for ( j in 1:NumLinha)
+      for (j in 1:NumLinha)
         
         if (MConver[j]==Nivel[i]) MDummy[j,i] <- 1
+        
+      i <- i + 1
+      
+    }
     
-    if (Names=="S")
-      colnames(MDummy) <- paste("(",Nivel,") ",colnames(Data[k]),sep="")# Nomeia as colunas 
+    if (Names == "S")
+       colnames(MDummy) <- paste("(",Nivel,") ",colnames(Data[k]),sep="")# Nomeia as colunas 
     
-    if (Names=="N")
-      colnames(MDummy) <- Nivel # Nomeia as colunas  
+    if (Names == "N")
+       colnames(MDummy) <- Nivel # Nomeia as colunas  
     
-    if (k==1) MFinal <- MDummy
+    if (k == 1) MFinal <- MDummy
     
     else
       

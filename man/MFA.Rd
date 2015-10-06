@@ -88,11 +88,11 @@ GroupNames = c("Notes Coffee/Work", "Training/Dedication", "Coffee")
 
 MF <- MFA(Matriz, c(2,2,2), c("n","c","f"), GroupNames) # perfoms MFA
 
-print("Variances of Principal Component:")
-print(round(MF$MatrixA,2))
+print("Variances of the Principal Component:")
+round(MF$MatrixA,2)
 
-print("Partial matrix of inertia/scores variables:")
-print(round(MF$MatrixEscVar,2))
+print("Partial matrix of the inertia/scores variables:")
+round(MF$MatrixEscVar,2)
 }
 
 \keyword{Multiple Factor Analysis}

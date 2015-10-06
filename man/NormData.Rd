@@ -37,7 +37,7 @@ mean(Resp) # mean global
 
 Resp = NormData(Dat, Type = 2) # normalizes the data by column
 
-Resp #Data normalized by column
+Resp # Data normalized by column
 
 apply(Resp, 2, sd) # standard deviation for column
 

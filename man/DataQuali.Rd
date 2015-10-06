@@ -6,7 +6,7 @@
 
 \title{Set of qualitative data}
 
-\description{Set of qualitative data on consumption of coffee.}
+\description{Set simulated of qualitative data on consumption of coffee.}
 
 \usage{data(DataQuali)}
 
