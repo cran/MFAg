@@ -136,7 +136,7 @@ Plot.MFA <- function(MFA,Titles = matrix(NA,1,3), PosLeg=2, BoxLeg="s", Color="s
   
   ## liga os pontos de cada Analise Global com cada ponto da Analise por Grupo
   for (j in 1:length(MFA$MatrixEFG)) 
-    segments(MFA$MatrixF[Observ,1], MFA$MatrixF[Observ,2], MFA$MatrixEFG[[j]][Observ,1], MFA$MatrixEFG[[j]][Observ,2], lty = cor + j, col = ifelse(Color=="S",cor + j,cor))
+    segments(MFA$MatrixF[Observ,1], MFA$MatrixF[Observ,2], MFA$MatrixEFG[[j]][Observ,1], MFA$MatrixEFG[[j]][Observ,2], lty = cor + j, col = ifelse(Color=="S",cor + j,cor), lwd=1.5)
   
   if (NamArr=="N")
     legend(PosLeg, NomeGrupos, lty = (cor+1):(cor+NumGrupos), col = Color_b, text.col = Color_b,
