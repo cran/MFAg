@@ -1,10 +1,10 @@
 \name{DataQuan}
 
-\alias{DataQuan}
+\alias{DataQuan} 
 
 \docType{data}
 
-\title{Set of quantitative data}
+\title{Quantitative data set}
 
 \description{Set simulated of quantitative data on grades given to some sensory characteristics of coffees.}
 
@@ -19,7 +19,7 @@ Marcelo Angelo Cirillo
 }
 
 \examples{
-data(DataQuan)
+data(DataQuan) 
 DataQuan
 }
 
