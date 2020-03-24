@@ -1,11 +1,11 @@
-9bc7f6cde46d75cda5014e5f0dccf1d8 *DESCRIPTION
+e7eaac5e96336c3309d9aaca6f68f077 *DESCRIPTION
 a9a8e94c726f2437e05b2bd1710e80b0 *NAMESPACE
 9b5f4c6f0bfd982e06ac597d411a3ea7 *R/GSVD_English.R
 e19f62c5209bc31f3d415421ed8198ef *R/IM_English.R
 da3f9e2d1a80e8e4b0398247ffc43821 *R/LocLab_English.R
 39f2850a97f3909c13478acc6fd7b228 *R/MFA_English.R
 a16f6c2c91e26a3566cff5fc07226f7a *R/NormData_English.R
-e611ede2ed81c39abe904831de403868 *R/Plot.MFA_English.R
+80b13770b7af4decb3494783591836f1 *R/Plot.MFA_English.R
 3f3f4ab05eaf6fa671bb2e48333cb4d1 *data/DataMix.rda
 85bdbea9b5019d74f864912fa069f8b2 *data/DataQuali.rda
 7125dfa8806a3a4b127a658b0b16e6b2 *data/DataQuan.rda
@@ -16,6 +16,6 @@ fabf819c8a5e88afe399b285d5e5505e *man/DataQuali_English.Rd
 41157115a4ab8836c9dad950c94ded18 *man/IM_English.Rd
 d0ee5bb07d260bd242f95342eafb1993 *man/LocLab_English.Rd
 d2a4faf2a3b4d051c4181b171fc985ac *man/MFA_English.Rd
-09d2231d54f73ce6bf5d031e2dc930d6 *man/MFAg-package.Rd
+d7952c8a434e08d0c67ee77a0832a0c9 *man/MFAg-package.Rd
 0eb57a93a9631df8fd5dceb4f5098916 *man/NormData_English.Rd
-8bb5e9eb6d96b22401d6aee87ab6a480 *man/Plot.MFA_English.Rd
+105e4ced72e4fd03e632e2111b586223 *man/Plot.MFA_English.Rd
