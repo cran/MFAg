@@ -2,5 +2,5 @@ exportPattern("^[[:alpha:]]+")
 importFrom("grDevices", "dev.new", "xy.coords")
 importFrom("graphics", "abline", "arrows", "barplot", "legend", "plot", 
            "points", "segments", "symbols", "text", "par", "rect", 
-           "strheight", "strwidth")
+           "strheight", "strwidth", "axis")
 importFrom("stats", "cor", "cov", "qchisq", "sd", "runif")
