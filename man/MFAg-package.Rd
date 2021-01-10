@@ -12,8 +12,8 @@
 \tabular{ll}{
 Package: \tab MFAg\cr
 Type: \tab Package\cr
-Version: \tab 1.7\cr
-Date: \tab 2020-05-21\cr
+Version: \tab 1.8\cr
+Date: \tab 2021-01-10\cr
 License: \tab GPL (>=2)\cr
 LazyLoad: \tab yes\cr
 }
