@@ -1,6 +1,6 @@
 \name{MFAg}
 
-\alias{MFAg}
+\alias{MFAg-package}
 
 \docType{package}
 
@@ -12,8 +12,8 @@
 \tabular{ll}{
 Package: \tab MFAg\cr
 Type: \tab Package\cr
-Version: \tab 1.8\cr
-Date: \tab 2021-01-10\cr
+Version: \tab 1.9\cr
+Date: \tab 2023-08-19\cr
 License: \tab GPL (>=2)\cr
 LazyLoad: \tab yes\cr
 }
