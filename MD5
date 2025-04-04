@@ -1,4 +1,4 @@
-01c3736f49945e19daabcdb8d70a41d2 *DESCRIPTION
+19e47929e0934ea2772db1868d1e8fcc *DESCRIPTION
 5c401adfee279d6c881ae49c70ef5768 *NAMESPACE
 9b5f4c6f0bfd982e06ac597d411a3ea7 *R/GSVD_English.R
 e19f62c5209bc31f3d415421ed8198ef *R/IM_English.R
@@ -16,6 +16,6 @@ fabf819c8a5e88afe399b285d5e5505e *man/DataQuali_English.Rd
 206d996f33ded0b485a5ae7b08d42984 *man/IM_English.Rd
 d0ee5bb07d260bd242f95342eafb1993 *man/LocLab_English.Rd
 9a4aed8b9e5422fb5d53d5d57bd0751d *man/MFA_English.Rd
-a50231beb130b4401e68e94201e69b97 *man/MFAg-package.Rd
+4646cf825ff3adccc35253f3d3fa01f8 *man/MFAg-package.Rd
 8dc6a99d4fbd25215dd206153a63c117 *man/NormData_English.Rd
 b896581284797c3917eb312e89dae832 *man/Plot.MFA_English.Rd

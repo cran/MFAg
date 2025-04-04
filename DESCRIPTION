@@ -1,8 +1,8 @@
 Package: MFAg
 Type: Package
 Title: Multiple Factor Analysis (MFA)
-Version: 2.0
-Date: 2024-06-21
+Version: 2.1
+Date: 2025-04-04
 Authors@R: c(
            person(given = c("Paulo Cesar"), family = "Ossani", 
              email = "ossanipc@hotmail.com", 
@@ -21,5 +21,5 @@ Author: Paulo Cesar Ossani [aut, cre] (<https://orcid.org/0000-0002-6617-8085>),
   Marcelo Angelo Cirillo [aut] (<https://orcid.org/0000-0002-2647-439X>)
 Maintainer: Paulo Cesar Ossani <ossanipc@hotmail.com>
 Repository: CRAN
-Packaged: 2024-06-21 14:21:40 UTC; Ossan
-Date/Publication: 2024-06-21 14:40:02 UTC
+Packaged: 2025-04-04 20:12:40 UTC; Ossan
+Date/Publication: 2025-04-04 20:40:05 UTC
